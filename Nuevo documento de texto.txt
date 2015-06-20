@@ -1,0 +1,12 @@
+cristian heriberto peña ingles
+glenda imelda jovel
+
+
+para registrar un producto
+
+http://localhost/proyecto/ventas.php
+
+
+para aser una venta
+
+http://localhost/proyecto/producto.php

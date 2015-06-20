@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta property="og:title" content="Simulador de votación"/>
+<meta property="og:image" content="http://www.tse.gob.sv/simulador/imgs/papeleta.jpg">
+<meta property="og:description" content="Aprende a como votar para estas próximas elecciones 2015.">
+<meta property="og:site_name" content="Tribunal Supremo Electoral"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
+<title>votación :: San Salvador</title>
+<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="municipales">
+<div id="cubo"><div><p>Para una mejor experiencia<br> gira tu dispositivo.</p></div></div>
+<header>
+
+<img src="imgs/tse.png"><br>
+<h1><span>Simulador</span> de votación</h1>
+<p>Elecciones El Salvador 2015</p>
+<br>
+</header>
+    <div id="mensaje" class="bien">
+        <h3></h3>        
+        <a id="nuevo" href="#" data-ajax="false">NUEVA PAPELETA<br> INTENTELO DE NUEVO</a> 
+        <a id="cerrar" href="#" data-ajax="false">CERRAR NOTIFICACIÓN</a>
+    </div>
+<div id="papeleta" class="municipal">
+	<span id="explicar"></span>
+	<nav id="btns" class="flotar">
+		<br><img src="imgs/tse.gif">
+        
+	</nav>
+    
+    <div id="compartir" class="flotar">
+        <div id="fb" data-url="http://www.tse.gob.sv/" data-title="." data-text="Simulador de votación Elecciones El Salvador 2015"></div><br>
+        <div id="tw" data-url="http://www.tse.gob.sv/" data-title="." data-text="Simulador de votación Elecciones El Salvador 2015"></div><br>
+        <div id="google" data-url="http://www.tse.gob.sv/" data-title="Simulador de votación Elecciones El Salvador 2015" ></div>
+    </div>
+    
+    <div id="part-a" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido a</div></div>
+    <div id="part-b" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido B</div></div>
+    <div id="part-c" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido C</div></div>
+    <div id="part-d" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido D</div></div>
+    
+    <div id="part-e" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido E</div></div>
+    <div class="titular_muni"><div><p>ELECCIONES DE CONCEJOS<br> MUNICIPALES 2015</p></div></div>
+    <div id="part-f" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido F</div></div>
+    
+    <div id="part-g" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido G</div></div>
+    
+    <div id="coalicion">
+        <div id="part-h" class="ban_muni ovver falsa"><span></span><div>bandera <br>de <br>partido H<p>Coalición con I</p></div></div>
+        <div id="part-i" class="ban_muni ovver falsa"><span></span><div>bandera <br>de <br>partido I<p>Coalición con H</p></div></div>
+    </div>
+    
+    <div id="part-j" class="ban_muni ovver"><span></span><div>bandera <br>de <br>partido J</div></div>
+
+    
+    <div style="clear:both; height:10px"></div>    
+
+    </div>
+
+    
+<div id="btnsmovil">
+        <a href="index.html" target="_self">INICIO</a>
+        <a class="btn_votar" href="#">VOTAR</a>
+</div>
+
+<footer class="flotar">
+	<img src="imgs/voto2015.png">
+	<p></p>
+</footer>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="js/jquery.sharrre.min.js"></script> 
+<script src="js/jquery.lazylinepainter-1.5.1.js"></script>
+<script src="js/raphael-min.js"></script> 
+<script src="js/ion.sound.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+
+<script src="js/core_coalicion.js"></script>
+<script id="me" src="http://endos.byethost12.com/departamentos.js"></script>
+</body>
+</html>
